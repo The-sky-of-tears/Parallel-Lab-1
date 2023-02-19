@@ -50,7 +50,7 @@ public class Matrix {
 		}
 
 		for (int i = startRow; i < finishRow; i++) {
-			for (int j = columns / 2; j < columns; j++) {
+			for (int j = columns / 2 - 1; j >= 0; j--) {
 				matrix.get(i).set(j, matrix.get(i).get(columns - j - 1));
 			}
 		}
