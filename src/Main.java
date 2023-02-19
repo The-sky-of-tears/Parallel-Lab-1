@@ -5,7 +5,7 @@ public class Main {
 		double sumOfTime = 0;
 
 		//the first iteration takes up to 10 times longer,
-		// I suppose the reason is init of JVM, so I ignore it for more clear testing
+		// I suppose the reason is init of JVM, so I ignore it for more accurate testing
 		new Runner().run(10000, 4);
 		new Runner().run(10000, 4);
 
